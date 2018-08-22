@@ -1,6 +1,10 @@
 package de.no3x.tdd.money;
 
+import java.util.Hashtable;
+
 public class Bank {
+
+    private Hashtable rates = new Hashtable();
 
     private class Pair {
         private String from;
