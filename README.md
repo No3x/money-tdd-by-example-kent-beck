@@ -7,4 +7,5 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [ ] Make "amount" private
 - [x] Dollar side-effects?
 - [ ] Money rounding?
-- [ ] equals
+- [ ] **equals()**
+- [ ] hashCode()
