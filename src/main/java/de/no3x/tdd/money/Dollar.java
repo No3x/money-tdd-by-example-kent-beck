@@ -2,6 +2,8 @@ package de.no3x.tdd.money;
 
 class Dollar extends Money {
 
+    private String currency;
+
     Dollar(int amount) {
         this.amount = amount;
     }
@@ -12,6 +14,7 @@ class Dollar extends Money {
 
     @Override
     public String currency() {
-        return "USD";
+        currency = "USD";
+        return currency;
     }
 }
