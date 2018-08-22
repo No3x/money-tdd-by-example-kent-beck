@@ -5,6 +5,7 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [ ] $5 + 10 CHF = $10 if rate is 2:1
 - [ ] **$5 + $5 = $10**
 - [ ] Return Money from $5 + $5
+- [ ] **Bank.reduce(Money)**
 - [x] $5 * 2 = $10
 - [x] Make "amount" private
 - [x] Dollar side-effects?
