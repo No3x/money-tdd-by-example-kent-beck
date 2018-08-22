@@ -11,3 +11,4 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [ ] hashCode()
 - [ ] Equal null
 - [ ] Equal object
+- [ ] **5 CHF * 2 = 10 CHF**
