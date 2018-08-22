@@ -1,6 +1,6 @@
 package de.no3x.tdd.money;
 
-class Dollar {
+class Dollar extends Money {
 
     private int amount;
 
