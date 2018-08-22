@@ -4,7 +4,7 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 # TODO
 - [x] $5 + 10 CHF = $10 if rate is 2:1
 - [x] $5 + $5 = $10
-- [ ] Sum.plus
+- [ ] **Sum.plus**
 - [ ] Expression.times
 - [ ] Return Money from $5 + $5
 - [x] Bank.reduce(Money)
