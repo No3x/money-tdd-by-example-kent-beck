@@ -6,6 +6,7 @@ class Dollar extends Money {
 
     Dollar(int amount) {
         this.amount = amount;
+        currency = "USD";
     }
 
     public Money times(int multiplier) {
@@ -14,7 +15,6 @@ class Dollar extends Money {
 
     @Override
     public String currency() {
-        currency = "USD";
         return currency;
     }
 }
