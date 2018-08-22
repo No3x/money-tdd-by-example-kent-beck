@@ -2,6 +2,8 @@ package de.no3x.tdd.money;
 
 class Franc extends Money {
 
+    private String currency;
+
     Franc(int amount) {
         this.amount = amount;
     }
@@ -12,6 +14,7 @@ class Franc extends Money {
 
     @Override
     public String currency() {
-        return "CHF";
+        currency = "CHF";
+        return currency;
     }
 }
