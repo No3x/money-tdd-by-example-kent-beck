@@ -14,7 +14,7 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [x] 5 CHF * 2 = 10 CHF
 - [ ] **Dollar/Franc duplication**
 - [x] Common equals
-- [ ] **Common times.**
+- [x] Common times.
 - [x] Compare Francs with Dollars
 - [x] Currency?
 - [ ] Delete testFrancMultiplication?
