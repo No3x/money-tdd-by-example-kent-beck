@@ -15,11 +15,13 @@ public class Bank {
             this.to = to;
         }
 
+        @Override
         public boolean equals(Object object) {
             Pair pair = (Pair)object;
             return from.equals(pair.from) && to.equals(pair.to);
         }
 
+        @Override
         public int hashCode() {
             return 0;
         }
