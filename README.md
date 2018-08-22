@@ -12,9 +12,9 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [ ] Equal null
 - [ ] Equal object
 - [x] 5 CHF * 2 = 10 CHF
-- [ ] **Dollar/Franc duplication**
+- [x] Dollar/Franc duplication
 - [x] Common equals
 - [x] Common times.
 - [x] Compare Francs with Dollars
 - [x] Currency?
-- [ ] Delete testFrancMultiplication?
+- [x] Delete testFrancMultiplication?
