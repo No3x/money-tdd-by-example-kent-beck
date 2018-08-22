@@ -4,6 +4,11 @@ public abstract class Money {
     protected int amount;
     protected String currency;
 
+    Money(int amount, String currency) {
+        this.amount = amount;
+        this.currency = currency;
+    }
+
     @Override
     public boolean equals(Object obj) {
         Money money = (Money) obj;

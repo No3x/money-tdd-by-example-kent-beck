@@ -3,8 +3,7 @@ package de.no3x.tdd.money;
 class Franc extends Money {
 
     Franc(int amount, String currency) {
-        this.amount = amount;
-        this.currency = currency;
+        super(amount, currency);
     }
 
     public Money times(int multiplier) {
