@@ -1,6 +1,6 @@
 package de.no3x.tdd.money;
 
-public class Sum {
+public class Sum implements Expression {
     public Money augend;
     public Money addend;
 
