@@ -6,7 +6,7 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [ ] **$5 + $5 = $10**
 - [ ] Return Money from $5 + $5
 - [x] Bank.reduce(Money)
-- [ ] Reduce Money with conversion
+- [ ] **Reduce Money with conversion**
 - [ ] Reduce(Bank, String)
 - [x] $5 * 2 = $10
 - [x] Make "amount" private
