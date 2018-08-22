@@ -2,6 +2,7 @@ package de.no3x.tdd.money;
 
 public abstract class Money {
     protected int amount;
+    protected String currency;
 
     @Override
     public boolean equals(Object obj) {
@@ -20,5 +21,8 @@ public abstract class Money {
 
     abstract public Money times(int multiplier);
 
-    public abstract String currency();
+    public String currency() {
+        return currency;
+    }
+
 }
