@@ -9,3 +9,5 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [ ] Money rounding?
 - [x] equals()
 - [ ] hashCode()
+- [ ] Equal null
+- [ ] Equal object
