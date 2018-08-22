@@ -12,7 +12,7 @@ class Franc extends Money {
 
     @Override
     public boolean equals(Object obj) {
-        Franc Franc = (Franc) obj;
+        Money Franc = (Franc) obj;
         return amount == Franc.amount;
     }
 }
