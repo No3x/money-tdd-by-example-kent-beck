@@ -9,4 +9,8 @@ public class Money {
         return this.amount == money.amount
                 && this.getClass().equals(money.getClass());
     }
+
+    public static Dollar dollar(int amount) {
+        return new Dollar(amount);
+    }
 }
