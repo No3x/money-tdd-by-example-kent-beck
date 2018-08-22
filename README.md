@@ -15,4 +15,4 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [ ] Dollar/Franc duplication
 - [x] Common equals
 - [ ] Common times.
-- [ ] **Compare Francs with Dollars**
+- [x] Compare Francs with Dollars
