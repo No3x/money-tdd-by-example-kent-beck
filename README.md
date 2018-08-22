@@ -16,5 +16,5 @@ The money example of the book "Test-Driven development by Example" by Kent Beck
 - [x] Common equals
 - [ ] Common times.
 - [x] Compare Francs with Dollars
-- [ ] **Currency?**
+- [x] Currency?
 - [ ] Delete testFrancMultiplication?
