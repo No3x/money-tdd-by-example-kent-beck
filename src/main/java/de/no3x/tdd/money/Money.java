@@ -32,4 +32,8 @@ public class Money {
         return currency;
     }
 
+    @Override
+    public String toString() {
+        return amount + " " + currency;
+    }
 }
