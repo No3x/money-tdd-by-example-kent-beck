@@ -7,7 +7,7 @@ class Franc extends Money {
     }
 
     public Money times(int multiplier) {
-        return new Franc(amount * multiplier, "CHF");
+        return new Franc(amount * multiplier, currency);
     }
 
 }
