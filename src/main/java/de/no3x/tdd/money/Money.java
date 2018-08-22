@@ -19,4 +19,6 @@ public abstract class Money {
     }
 
     abstract public Money times(int multiplier);
+
+    public abstract String currency();
 }
