@@ -2,9 +2,7 @@ package de.no3x.tdd.money;
 
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class MoneyExampleTest {
 
@@ -28,4 +26,9 @@ public class MoneyExampleTest {
         assertEquals("CHF", Money.franc(1).currency());
     }
 
+    @Test
+    public void testSimpleAddition() {
+        Money sum = Money.dollar(5).plus(Money.dollar(5));
+        assertEquals(Money.dollar(10), sum);
+    }
 }
